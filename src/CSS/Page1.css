@@ -8,7 +8,7 @@
 .textArea {
   text-align: center;
   margin-top: 50px;
-  width: 50%;
+  width: 60%;
 }
 
 h1 {
@@ -17,6 +17,7 @@ h1 {
 }
 
 p {
+  font-size: 20px;
   color: gray;
 }
 
@@ -34,4 +35,77 @@ Button {
   height: 700px;
   width: 100%;
   position: relative;
+}
+
+.logoArea {
+  font-size: 25px;
+  width: 100%;
+  text-align: Center;
+}
+
+.logoArea img {
+  width: auto;
+  height: 40px;
+  margin: 30px;
+}
+
+.features {
+  width: 100%;
+  display: flex;
+  position: relative;
+  background-color: #f5f6fa;
+}
+
+.featuresBox {
+  display: grid;
+  width: 850px;
+  height: 900px;
+  grid-template-columns: 350px 150px;
+  grid-template-rows: 400px 150px;
+}
+.box {
+  margin: 80px;
+  padding: 40px;
+  border-radius: 10px;
+  width: 220px;
+  height: 250px;
+  background-color: white;
+}
+.box p {
+  font-size: 18px;
+}
+
+.box img {
+  width: 80px;
+}
+
+.featuresText {
+  width: 400px;
+  padding-top: 300px;
+}
+
+.contents1 {
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+
+.contents1Text {
+  width: 400px;
+  padding: 200px;
+}
+
+.contents1Image .noti {
+  box-shadow: 10px 10px 5px rgb(0, 0, 0, 0.2);
+  align-items: center;
+  width: 300px;
+  position: absolute;
+  display: flex;
+  top: 60%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.contents1Image .notiText {
+  padding-left: 20px;
 }
