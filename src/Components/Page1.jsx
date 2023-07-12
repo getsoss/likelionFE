@@ -1,6 +1,7 @@
 import "../CSS/Page1.css";
 import React from "react";
 import Button from "./Button";
+import Footer from "./Footer";
 
 function Page1() {
   return (
@@ -155,6 +156,163 @@ function Page1() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="contents2">
+        <div className="contents2Image">
+          <img
+            src="./images/contents2_image1.png"
+            alt="image1"
+            style={{
+              height: "615px",
+              position: "absolute",
+              top: "0%",
+              left: "10%",
+              margin: "50px",
+            }}
+          />
+          <img
+            src="./images/contents2_image2.png"
+            alt="image2"
+            style={{
+              height: "615px",
+              position: "absolute",
+              top: "0%",
+              left: "0%",
+              margin: "100px",
+            }}
+          />
+          <div className="noti" style={{ position: "relative", zIndex: "100" }}>
+            <img
+              src="./images/contents2_image3.png"
+              alt="image3"
+              style={{
+                height: "80px",
+                paddingLeft: "20px",
+              }}
+            />
+            <div className="notiText">
+              <p>Notification</p>
+              <h3>Send a message to liya Zinchenko</h3>
+            </div>
+          </div>
+        </div>
+        <div className="contents2Text">
+          <h1>Move will remind you when to complete a task</h1>
+          <p>
+            You can use our messenger to set reminders for tasks that you want
+            to complete on time. And you can choose the importance of tasks
+            using tags.
+          </p>
+          <Button></Button>
+        </div>
+      </div>
+      <div className="reviewContainer">
+        <h1>Customers are loving our </h1>
+        <h1>Move messenger</h1>
+        <div className="review">
+          <div className="user">
+            <div className="profile">
+              <img
+                src="./images/user1.png"
+                alt="user1"
+                style={{
+                  width: "80px",
+                  height: "80px",
+                }}
+              />
+              <div className="profileName">
+                <h3>Alpamys Moldashev</h3>
+                <p>Graphic Designer</p>
+              </div>
+            </div>
+            <div className="reviewText">
+              <p>
+                With the Move messenger I can correspond with clients from all
+                over the world and never forget about important meetings.
+              </p>
+            </div>
+            <img
+              src="./images/star.png"
+              alt="star"
+              style={{
+                width: "230px",
+                height: "43px",
+              }}
+            />
+          </div>
+          <div className="user">
+            <div className="profile">
+              <img
+                src="./images/user2.png"
+                alt="user1"
+                style={{
+                  width: "80px",
+                  height: "80px",
+                }}
+              />
+              <div className="profileName">
+                <h3>Bogdan Krivenchenko</h3>
+                <p>UI/UX Designer</p>
+              </div>
+            </div>
+            <div className="reviewText">
+              <p>
+                Move messenger helps me a lot in performing normal tasks with
+                reminders. It looks great and is easy to use!
+              </p>
+            </div>
+            <img
+              src="./images/star.png"
+              alt="star"
+              style={{
+                width: "230px",
+                height: "43px",
+              }}
+            />
+          </div>
+          <div className="user">
+            <div className="profile">
+              <img
+                src="./images/user3.png"
+                alt="user1"
+                style={{
+                  width: "80px",
+                  height: "80px",
+                }}
+              />
+              <div className="profileName">
+                <h3>Sergey Filatov</h3>
+                <p>CEO at Mindset</p>
+              </div>
+            </div>
+            <div className="reviewText">
+              <p>
+                Move messenger is just a bomb! On it I have the opportunity to
+                lead my own design community and share up to date information.
+              </p>
+            </div>
+            <img
+              src="./images/star.png"
+              alt="star"
+              style={{
+                width: "230px",
+                height: "43px",
+              }}
+            />
+          </div>
+        </div>
+        <div className="reviewBottom">
+          <h4>See all testmonials</h4>
+          <img
+            src="./images/arrow.png"
+            alt="arrow"
+            style={{
+              width: "20px",
+              height: "20px",
+            }}
+          />
+        </div>
+        <Footer></Footer>
       </div>
     </div>
   );
