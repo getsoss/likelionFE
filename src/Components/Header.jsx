@@ -2,6 +2,7 @@ import "../CSS/Header.css";
 import "../CSS/Button.css";
 import React from "react";
 import Button from "./Button";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -11,10 +12,10 @@ function Header() {
         <nav>
           <ul>
             <li>
-              <a href="index.html">Home</a>
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <a href="index.html">Studies</a>
+              <Link to="/Page2">Studies</Link>
             </li>
             <li>
               <a href="index.html">About</a>

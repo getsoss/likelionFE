@@ -157,12 +157,12 @@ Button {
   display: flex;
 }
 
-.profile {
+.review .profile {
   display: flex;
   line-height: 10px;
 }
 
-.user {
+.review .user {
   background-color: white;
   border-radius: 10px;
   margin: 10px;
@@ -172,11 +172,11 @@ Button {
   margin-top: 100px;
 }
 
-.profileName {
+.review .profileName {
   margin-left: 20px;
 }
 
-.user1 .reviewText {
+.review .reviewText {
   width: 300px;
 }
 

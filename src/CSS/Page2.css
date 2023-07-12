@@ -1,0 +1,76 @@
+body {
+  background-color: #f5f6fa;
+}
+
+.welcomeContainer {
+  width: 100%;
+  justify-content: center;
+}
+.welcomeBox1 {
+  border-radius: 10px;
+  background-color: white;
+  width: 80%;
+  height: 570px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.welcomeContents {
+  padding-top: 150px;
+  display: flex;
+  justify-content: center;
+}
+
+.welcomeText {
+  padding-left: 50px;
+  width: 400px;
+}
+
+.welcomeText h1 {
+  font-size: 48px;
+}
+
+.welcomeText p {
+  font-size: 20px;
+  color: gray;
+}
+.welcomeText h4 {
+  color: #4b7cf7;
+  padding-right: 10px;
+}
+
+.welcomeBottom {
+  display: flex;
+  align-items: center;
+}
+
+.welcomeUsers {
+  margin-top: 100px;
+  padding-left: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.welcomeUsers .user1 {
+  display: flex;
+  align-items: center;
+}
+
+.welcomeUsers .user2 {
+  display: flex;
+  align-items: center;
+}
+.welcomeUsers p {
+  color: gray;
+  font-size: 18px;
+}
+
+.welcomeUsers h4 {
+  font-size: 24px;
+}
+
+.welcomeUsers .profile {
+  padding-left: 40px;
+  width: 270px;
+}

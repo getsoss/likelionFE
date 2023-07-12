@@ -2,10 +2,12 @@ import "../CSS/Page1.css";
 import React from "react";
 import Button from "./Button";
 import Footer from "./Footer";
+import Header from "./Header";
 
 function Page1() {
   return (
     <div>
+      <Header></Header>
       <div className="Container">
         <div className="textArea">
           <h1>A messenger that is </h1>
