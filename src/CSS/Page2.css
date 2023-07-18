@@ -3,7 +3,7 @@ body {
 }
 
 .welcomeContainer {
-  width: 100%;
+  width: 98%;
   justify-content: center;
 }
 .welcomeBox1 {
@@ -36,6 +36,7 @@ body {
   color: gray;
 }
 .welcomeText h4 {
+  font-size: 24px;
   color: #4b7cf7;
   padding-right: 10px;
 }
@@ -47,6 +48,7 @@ body {
 
 .welcomeUsers {
   margin-top: 100px;
+  margin-bottom: 100px;
   padding-left: 20px;
   width: 100%;
   display: flex;
@@ -73,4 +75,119 @@ body {
 .welcomeUsers .profile {
   padding-left: 40px;
   width: 270px;
+}
+
+.boxContainer {
+  padding-top: 100px;
+  background-color: white;
+}
+
+.boxLine1 {
+  justify-content: space-evenly;
+  width: 100%;
+  display: flex;
+}
+
+.boxLine2 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  justify-content: space-evenly;
+  width: 100%;
+  display: flex;
+}
+
+.box1 {
+  border: solid 2px;
+  border-color: #f5f6fa;
+  border-radius: 10px;
+  background-color: white;
+  width: 392px;
+  height: 607px;
+  position: relative;
+}
+
+.box2 {
+  border: solid 2px;
+  border-color: #f5f6fa;
+  border-radius: 10px;
+  background-color: white;
+  width: 392px;
+  height: 607px;
+  position: relative;
+}
+.box3 {
+  border: solid 2px;
+  border-color: #f5f6fa;
+  border-radius: 10px;
+  background-color: white;
+  width: 392px;
+  height: 607px;
+  position: relative;
+}
+.box4 {
+  border: solid 2px;
+  border-color: #f5f6fa;
+  border-radius: 10px;
+  background-color: white;
+  width: 392px;
+  height: 607px;
+  position: relative;
+}
+.box5 {
+  border: solid 2px;
+  border-color: #f5f6fa;
+  border-radius: 10px;
+  background-color: white;
+  width: 392px;
+  height: 607px;
+  position: relative;
+}
+.box6 {
+  border: solid 2px;
+  border-color: #f5f6fa;
+  border-radius: 10px;
+  background-color: white;
+  width: 392px;
+  height: 607px;
+  position: relative;
+}
+
+.boxText {
+  width: 300px;
+  padding-top: 30px;
+  padding-left: 30px;
+  position: relative;
+}
+
+.boxText p {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.box6 .boxText p {
+  font-size: 17px;
+}
+
+.arrowLink {
+  display: flex;
+  align-items: center;
+}
+
+.arrowLink img {
+  padding-left: 10px;
+}
+
+.arrowLink h4 {
+  font-size: 24px;
+  color: #4b7cf7;
+}
+
+.boxImage {
+  position: relative;
+}
+
+.boxImage2 {
+  top: 65%;
+  left: 10%;
+  position: absolute;
 }

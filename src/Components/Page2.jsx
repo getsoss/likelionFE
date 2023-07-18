@@ -98,6 +98,253 @@ function Page2() {
           </div>
         </div>
       </div>
+      <div className="boxContainer">
+        <div className="boxLine1">
+          <div className="box1">
+            <div className="boxImage">
+              <img
+                src="./images/box1.png"
+                alt="box1"
+                style={{
+                  width: "392px",
+                  height: "298px",
+                }}
+              />
+              <div className="boxImage2">
+                <img
+                  src="./images/box11.png"
+                  alt="box11"
+                  style={{
+                    width: "196px",
+                    height: "66px",
+                  }}
+                />
+              </div>
+            </div>
+            <div className="boxText">
+              <h2>Slack</h2>
+              <p>
+                Think about how many people and different companies our
+                corporate messenger brings together.
+              </p>
+              <div className="arrowLink">
+                <h4>Read story</h4>
+                <img
+                  src="./images/arrow.png"
+                  alt="arrow"
+                  style={{
+                    width: "20px",
+                    height: "20px",
+                  }}
+                />
+              </div>
+            </div>
+          </div>
+          <div className="box2">
+            <div className="boxImage">
+              <img
+                src="./images/box2.png"
+                alt="box1"
+                style={{
+                  width: "392px",
+                  height: "298px",
+                }}
+              />
+              <div className="boxImage2">
+                <img
+                  src="./images/box22.png"
+                  alt="box11"
+                  style={{
+                    width: "196px",
+                    height: "66px",
+                  }}
+                />
+              </div>
+            </div>
+            <div className="boxText">
+              <h2>Spotify</h2>
+              <p>
+                Our app allows everyone to listen to music of different genres.
+                You can try it on your smartphone or PC.
+              </p>
+              <div className="arrowLink">
+                <h4>Read story</h4>
+                <img
+                  src="./images/arrow.png"
+                  alt="arrow"
+                  style={{
+                    width: "20px",
+                    height: "20px",
+                  }}
+                />
+              </div>
+            </div>
+          </div>
+          <div className="box3">
+            <div className="boxImage">
+              <img
+                src="./images/box3.png"
+                alt="box3"
+                style={{
+                  width: "392px",
+                  height: "298px",
+                }}
+              />
+              <div className="boxImage2">
+                <img
+                  src="./images/box33.png"
+                  alt="box33"
+                  style={{
+                    width: "196px",
+                    height: "66px",
+                  }}
+                />
+              </div>
+            </div>
+            <div className="boxText">
+              <h2>BuzzFeed</h2>
+              <p>
+                Think about how many people and different companies our
+                corporate messenger brings together.
+              </p>
+              <div className="arrowLink">
+                <h4>Read story</h4>
+                <img
+                  src="./images/arrow.png"
+                  alt="arrow"
+                  style={{
+                    width: "20px",
+                    height: "20px",
+                  }}
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="boxLine2">
+          <div className="box4">
+            <div className="boxImage">
+              <img
+                src="./images/box4.png"
+                alt="box4"
+                style={{
+                  width: "392px",
+                  height: "298px",
+                }}
+              />
+              <div className="boxImage2">
+                <img
+                  src="./images/box44.png"
+                  alt="box33"
+                  style={{
+                    width: "196px",
+                    height: "66px",
+                  }}
+                />
+              </div>
+            </div>
+            <div className="boxText">
+              <h2>Target</h2>
+              <p>
+                The goal of our company is to make various products and products
+                available.
+              </p>
+              <div className="arrowLink">
+                <h4>Read story</h4>
+                <img
+                  src="./images/arrow.png"
+                  alt="arrow"
+                  style={{
+                    width: "20px",
+                    height: "20px",
+                  }}
+                />
+              </div>
+            </div>
+          </div>
+          <div className="box5">
+            <div className="boxImage">
+              <img
+                src="./images/box5.png"
+                alt="box3"
+                style={{
+                  width: "392px",
+                  height: "298px",
+                }}
+              />
+              <div className="boxImage2">
+                <img
+                  src="./images/box55.png"
+                  alt="box33"
+                  style={{
+                    width: "196px",
+                    height: "66px",
+                  }}
+                />
+              </div>
+            </div>
+            <div className="boxText">
+              <h2>Mailchimo</h2>
+              <p>
+                Many businesses are working harder than ever to stay connected
+                with customers.
+              </p>
+              <div className="arrowLink">
+                <h4>Read story</h4>
+                <img
+                  src="./images/arrow.png"
+                  alt="arrow"
+                  style={{
+                    width: "20px",
+                    height: "20px",
+                  }}
+                />
+              </div>
+            </div>
+          </div>
+          <div className="box6">
+            <div className="boxImage">
+              <img
+                src="./images/box6.png"
+                alt="box3"
+                style={{
+                  width: "392px",
+                  height: "298px",
+                }}
+              />
+              <div className="boxImage2">
+                <img
+                  src="./images/box66.png"
+                  alt="box33"
+                  style={{
+                    width: "196px",
+                    height: "66px",
+                  }}
+                />
+              </div>
+            </div>
+            <div className="boxText">
+              <h2>Dropbox</h2>
+              <p>
+                Work with files, use tools, and interact with colleagues
+                directly in Dropbox. Everything you need is put together.
+              </p>
+              <div className="arrowLink">
+                <h4>Read story</h4>
+                <img
+                  src="./images/arrow.png"
+                  alt="arrow"
+                  style={{
+                    width: "20px",
+                    height: "20px",
+                  }}
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="communityContainer"></div>
       <Footer></Footer>
     </div>
   );
