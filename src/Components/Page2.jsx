@@ -344,7 +344,62 @@ function Page2() {
           </div>
         </div>
       </div>
-      <div className="communityContainer"></div>
+      <div className="communityContainer">
+        <div className="content1">
+          <div className="contentImage">
+            <img
+              src="./images/content1.png"
+              alt="content1"
+              style={{
+                width: "286px",
+                height: "255px",
+              }}
+            />
+          </div>
+          <div className="contentText">
+            <img
+              src="./images/content11.png"
+              alt="content11"
+              style={{
+                width: "196px",
+                height: "66px",
+              }}
+            />
+            <h4>Dribbble Community</h4>
+            <p>
+              Initially our goal was to unite designers from all over the world
+              under one social network.
+            </p>
+          </div>
+        </div>
+        <div className="content2">
+          <div className="contentImage">
+            <img
+              src="./images/content2.png"
+              alt="content2"
+              style={{
+                width: "286px",
+                height: "255px",
+              }}
+            />
+          </div>
+          <div className="contentText">
+            <img
+              src="./images/content22.png"
+              alt="content22"
+              style={{
+                width: "196px",
+                height: "66px",
+              }}
+            />
+            <h4>Flickr Community</h4>
+            <p>
+              Join the Flickr community, home to tens of billions of photos and
+              2 million groups.
+            </p>
+          </div>
+        </div>
+      </div>
       <Footer></Footer>
     </div>
   );
