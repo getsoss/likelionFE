@@ -1,12 +1,11 @@
 import "../CSS/Header.css";
 import React from "react";
 
-function Button() {
+const Button = ({ text }) => {
   return (
     <div>
-      <button>Get Started</button>
+      <button>{text}</button>
     </div>
   );
-}
-
+};
 export default Button;

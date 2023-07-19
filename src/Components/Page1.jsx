@@ -20,8 +20,12 @@ function Page1() {
             that will make it easier for you to communicate between your friends
           </p>
           <div className="buttonArea">
-            <Button></Button>
-            <Button></Button>
+            <div className="blueButton">
+              <Button text="Get Started"></Button>
+            </div>
+            <div className="skyButton">
+              <Button text="View more"></Button>
+            </div>
           </div>
         </div>
       </div>
@@ -109,7 +113,9 @@ function Page1() {
             The very functions that help you in everyday life are already built
             into our messenger and are not just built in but invented anew
           </p>
-          <Button></Button>
+          <div className="blueButton">
+            <Button text="Get Started"></Button>
+          </div>
         </div>
       </div>
       <div className="contents1">
@@ -119,7 +125,9 @@ function Page1() {
             Watch a short video that tells you about the useful featrues of our
             mobile app. Everything you need is always at hand with Move.
           </p>
-          <Button></Button>
+          <div className="blueButton">
+            <Button text="Get Started"></Button>
+          </div>
         </div>
         <div className="contents1Image">
           <img
@@ -205,7 +213,9 @@ function Page1() {
             to complete on time. And you can choose the importance of tasks
             using tags.
           </p>
-          <Button></Button>
+          <div className="blueButton">
+            <Button text="Get Started"></Button>
+          </div>
         </div>
       </div>
       <div className="reviewContainer">

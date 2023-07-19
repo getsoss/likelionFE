@@ -20,7 +20,9 @@ function Header() {
             <li>
               <a href="index.html">About</a>
             </li>
-            <Button></Button>
+            <div className="blueButton">
+              <Button text="Get Started"></Button>
+            </div>
           </ul>
         </nav>
       </div>
