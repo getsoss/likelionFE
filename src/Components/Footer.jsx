@@ -12,10 +12,10 @@ function Footer() {
               Move - Multipurpose Design Template will help you develop your
               website design.
             </p>
-            <img src="./images/dribbble.png" alt="dribbble" style={{}} />
-            <img src="./images/facebook.png" alt="facebook" style={{}} />
-            <img src="./images/twitter.png" alt="twitter" style={{}} />
-            <img src="./images/youtube.png" alt="youtube" style={{}} />
+            <img src="../images/dribbble.png" alt="dribbble" style={{}} />
+            <img src="../images/facebook.png" alt="facebook" style={{}} />
+            <img src="../images/twitter.png" alt="twitter" style={{}} />
+            <img src="../images/youtube.png" alt="youtube" style={{}} />
           </div>
           <div className="item2">
             <h3>Home</h3>

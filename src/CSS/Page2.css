@@ -164,6 +164,10 @@ body {
   line-height: 30px;
 }
 
+.boxText h2 {
+  color: black;
+}
+
 .box6 .boxText p {
   font-size: 17px;
 }
