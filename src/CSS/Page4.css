@@ -1,0 +1,53 @@
+body {
+  background-color: white;
+}
+
+.createContainer {
+  padding-left: 100px;
+  padding-top: 150px;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.createText {
+  padding-left: 50px;
+}
+.inputArea {
+  padding-top: 10px;
+}
+.inputBox {
+  border: solid 2px;
+  border-radius: 5px;
+  border-color: #f5f6fa;
+  display: inline-block;
+}
+
+.inputBoxContent {
+  display: flex;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.inputBoxContent input {
+  width: 400px;
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+.inputBoxContent input::placeholder {
+  color: lightgray;
+}
+
+.passwordArea {
+  display: flex;
+  justify-content: space-between;
+}
+
+.passwordArea h4 {
+  color: #aab0b7;
+  font-size: 18px;
+  font-weight: normal;
+}

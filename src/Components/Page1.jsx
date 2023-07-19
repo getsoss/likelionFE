@@ -126,7 +126,7 @@ function Page1() {
             mobile app. Everything you need is always at hand with Move.
           </p>
           <div className="blueButton">
-            <Button text="Get Started"></Button>
+            <Button text="View More"></Button>
           </div>
         </div>
         <div className="contents1Image">
@@ -214,7 +214,7 @@ function Page1() {
             using tags.
           </p>
           <div className="blueButton">
-            <Button text="Get Started"></Button>
+            <Button text="View More"></Button>
           </div>
         </div>
       </div>
